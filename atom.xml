@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>昊天</title>
+  <title>昊sky</title>
   
   <subtitle>君子和而不同  小人同而不和</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://dmsky.top/</id>
   
   <author>
-    <name>D z</name>
+    <name>D</name>
     
   </author>
   
