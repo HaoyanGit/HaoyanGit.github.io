@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dmsky.top/"/>
-  <updated>2020-05-12T06:40:20.726Z</updated>
+  <updated>2020-05-13T08:02:27.300Z</updated>
   <id>http://dmsky.top/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>产权交易系统</title>
+    <link href="http://dmsky.top/2020/05/13/%E4%BA%A7%E6%9D%83%E4%BA%A4%E6%98%93/"/>
+    <id>http://dmsky.top/2020/05/13/%E4%BA%A7%E6%9D%83%E4%BA%A4%E6%98%93/</id>
+    <published>2020-05-13T08:02:27.208Z</published>
+    <updated>2020-05-13T08:02:27.300Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、环境变量，jdk安装"><a href="#一、环境变量，jdk安装" class="headerlink" title="*一、环境变量，jdk安装 *"></a>*<em>一、环境变量，jdk安装 *</em></h2><p>1、添加系统环境变量3 个</p><pre><code>JAVA_HOME C:\Program Files\Java\jdk1.8.0_31JRE_HOME C:\Program Files\Java\jre1.8.0_31classpath  .;%JAVA_HOME%\lib\dat.jar;%JAVA_HOME%\lib\tools.jar</code></pre><a id="more"></a><p>2、path的最后面中添加 “;”分隔开</p><pre><code>C:\Program Files\Java\jdk1.8.0_31\binC:\Program Files\Java\jdk1.8.0_31\jre\binC:\Program Files\Java\jre1.8.0_31</code></pre><p>3、验证配置</p><p><code>cmd</code> 命令窗口中输入<code>java -version</code> 出现<code>jdk1.8</code>即配置成功 </p><h2 id="二、数据库部署"><a href="#二、数据库部署" class="headerlink" title="二、数据库部署"></a><strong>二、数据库部署</strong></h2><p>1、双击 <a href="https://blog.csdn.net/rucia/article/details/81288235" target="_blank" rel="noopener">安装部署</a></p><p>2、 安装数据库连接工具 <code>Navicat Premium 11.rar</code>解压</p><p>  双击 <code>navicat.exe</code>启动 新建连接，点击连接，选择<code>mysql</code>。<br>  a.输入连接名（随便起：如<code>root-127.0.0.1</code>），<br>  b.<code>ip</code>（目标数据库服务器ip或者localhost,因为可能目标服务器对外<code>IP</code>需要做映射，具体请咨询服务器相应网络工程师），<br>  c.端口（<code>3306</code>）<br>  d.账号（<code>root</code>），密码（刚才设置的密码）</p><p>3、创建数据库<code>cqjy</code>，导入数据库， 右键数据库名称<code>cqjy</code>，点击运行<code>sql</code>文件， 将“每个运行中运行多重查询”和“<code>autocommit=0</code>”，两个钩去掉–运行</p><h2 id="三、应用部署"><a href="#三、应用部署" class="headerlink" title="三、应用部署"></a><strong>三、应用部署</strong></h2><p>1、修改应用配置文件：<code>application.properties</code>：</p><p>a:修改第1行启动单口，<code>server.port=10008</code>，与<code>nginx.conf</code>文件服务端口对应<br>b:修改第24行文件保存路径： <code>uploadpath=E:\\cqjy\\cqjyxt_admin\\upload</code>改成本地服务器对应路径。配置上传文件路径：<code>webpath= localhost:1001/upload</code><br>c:修改第38-40行数据库配置： <code>jdbc:mysql://127.0.0.1:3306/cqjy…………</code><br><code>username=root password=123456</code>(刚才设置的密码)</p><p>2、<code>nginx</code>部署</p><p>   修改<code>conf</code>文件夹下<code>nginx.cof</code>，在每一段<code>server</code>中出现的<code>E:\cqjyxt</code>修改成服务器本次部署包存放路径<code>D:\cqjyxt\cqjyxt_portal</code>;</p><p>3、启动部署</p><ul><li><p>第一种方式：<br>1、启动<code>war</code>包：进入<code>D:\cqjyxt\cqjyxt_api</code>路径终端输入：<code>java -jar znxd-cqjyxt-master.war</code>  (注：<code>java -jar</code> 加对应的文件名称)                                 </p><p>2、发布<code>nginx</code>服务：进入<code>E:\cqjyxt\nginx-1.10.3</code> 路径，输入命令<code>start nginx</code>（只输入一次即可，没有提示）</p></li><li><p>第二种方式：编辑脚本 </p><pre><code>@echo off  echo “正在启动产权交易系统”  start /min &quot;cqjyxt&quot; java -jar D:\cqjyxt\cqjyxt_api\znxd-cqjyxt-master.war #war包绝对路径  ping /n 8 127.1&gt;nul  echo ”已启动产权交易系统“  d:#修改为nginx存放盘对应d:  cd D:\cqjyxt\nginx-1.10.3  taskkill /fi &quot;imagename eq nginx.EXE&quot; /F  start nginx  pause</code></pre></li></ul><p>部署完成，访问系统地址</p><p>门户：<a href="http://门户：localhost:1001" title="门户网站">门户网站</a></p><p>后台：<code>localhost:1002</code> 用户名：<code>admin</code> 密码：<code>admin2</code></p><hr><font face="楷体" size = 5 color = red >**注意事项**<p>不能删除角色管理中，“管理员权限”这个权限</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一、环境变量，jdk安装&quot;&gt;&lt;a href=&quot;#一、环境变量，jdk安装&quot; class=&quot;headerlink&quot; title=&quot;*一、环境变量，jdk安装 *&quot;&gt;&lt;/a&gt;*&lt;em&gt;一、环境变量，jdk安装 *&lt;/em&gt;&lt;/h2&gt;&lt;p&gt;1、添加系统环境变量3 个&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;JAVA_HOME C:\Program Files\Java\jdk1.8.0_31
+JRE_HOME C:\Program Files\Java\jre1.8.0_31
+classpath  .;%JAVA_HOME%\lib\dat.jar;%JAVA_HOME%\lib\tools.jar&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="三农" scheme="http://dmsky.top/categories/%E4%B8%89%E5%86%9C/"/>
+    
+    
+      <category term="产权交易" scheme="http://dmsky.top/tags/%E4%BA%A7%E6%9D%83%E4%BA%A4%E6%98%93/"/>
+    
+      <category term="三农服务" scheme="http://dmsky.top/tags/%E4%B8%89%E5%86%9C%E6%9C%8D%E5%8A%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>江湖八大门</title>
     <link href="http://dmsky.top/2020/05/12/%E6%B1%9F%E6%B9%96%E5%85%AB%E5%A4%A7%E9%97%A8/"/>
     <id>http://dmsky.top/2020/05/12/%E6%B1%9F%E6%B9%96%E5%85%AB%E5%A4%A7%E9%97%A8/</id>
     <published>2020-05-12T06:22:37.520Z</published>
-    <updated>2020-05-12T06:40:20.726Z</updated>
+    <updated>2020-05-13T07:28:26.420Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p><em>过去的江湖术，分为惊、疲、飘、册、风、火、爵、要八门，包括走江湖混饭吃的种种手段。但是真正的江湖八大门可不止这些，而是这人世间一切所为之道――</em></p></blockquote><p>三山五岳、五湖四海，上至庙堂之上，下至市井之间，皆称江湖。俗话说有人的地方就有江湖，人世间一切行事之术，皆可称江湖术，古有八大门之说。然而自清末民国以来，所谓江湖术已经沦为流浪艺人骗口饭吃的小手段，这是狭义的江湖，至今世人所谈的江湖八大门已经完全是狭义了。</p><a id="more"></a><ul><li><p><strong># 惊门 #</strong><br>是江湖八大门之首，主要是研究吉凶祸福，为人指点迷津。那么如今看相算命的都算惊门中的江湖人。惊门始祖是伏羲与周文王，传说伏羲画八卦而文王演周易，而江湖术士们常拜的还有另外一位祖师爷就是汉代的东方朔，据说东方朔曾经就在长安城中摆摊占卜。如果说惊门也有经典的话，那就是《易经》。江湖八大门以惊门为首不是没有道理，因为它研究的是天道变化。惊门一旦精通，则其余七门江湖术都可触类旁通，推演吉凶祸福世事变化本就是世间道的核心。现代的算命先生恐怕没这个本领，但是看人的眼力活还是基本功，而世间江湖术总而言之就是看人下菜碟。</p></li><li><p><strong># 疲门 #</strong><br>讲究的是行医济世之道。这里的行医不仅包括江湖游医，也包括坐堂医生，甚至包括古代的巫祝等等，只要是用各种办法给人看病，皆归疲门。疲门中人拜的祖师爷有两位，医圣张仲景与药王孙思邈。但是如今说江湖疲门，大家指的大多都是游方郎中。<br>疲门仅次于惊门位于江湖八大门之二，地位也很重要，因为它研究的是人自身的学问。严格说起来疲门的始祖是黄帝轩辕与炎帝神农，他们也是传说中中华民族的始祖，疲门的经典当然是《黄帝内经》与《神农本草经》。</p></li><li><p><strong># 飘门 #</strong><br>讲究的是云游求学之道。飘门的祖师爷是孔子孔圣人，这恐怕是很多人想不到的。而时至今日，江湖杂耍卖艺、登台现演的，甚至烟花妓女，都自称飘门中人。</p></li><li><p><strong># 册门 #</strong><br>讲究的是考证今古之学。册门的祖师爷是司马迁。时至今日江湖术，捣腾真假古董的，卖春宫的，经营字画的，都自称册门中人，甚至还包括盗墓的。</p></li><li><p><strong># 风门 #</strong><br>研究的是天下地理山川。风门的祖师爷据说是郭璞，那么如今的风水先生、阴阳宅地师都是风门中人了。</p></li><li><p><strong># 火门 #</strong><br>讲究的是各种养生之术。火门的祖师爷是葛洪葛天师，经典包括《抱朴子》、《参同契》等。那么炼丹术、炼金术、房中术都是火门江湖人的把戏了。</p></li><li><p><strong># 爵门 #</strong><br>讲究的是为官之道。传说爵门的祖师爷是鬼谷先生，经典是《鬼谷子》与《战国策》，鬼谷先生有两个很有名的弟子苏秦和张仪，传统爵门讲的其实是纵横术。自近代以来，买官卖官的把戏，包括以官方机构的名义诈骗等等，也算是爵门的江湖术。</p></li><li><p><strong># 要门 #</strong><br>讲究的是落魄之道。这一门的学问深奥，时运不济时该当如何自处又如何渡厄？要门的祖师爷据说是朱元璋，还有一说是柳下拓，其究竟已不可考。近代以来，打莲花落要饭的，吃大户打秋风的，装作僧尼化缘骗人的，甚至下蒙汗药的，都可算要门中人。</p></li></ul><hr><p>由此看来，江湖八大门包罗万象，讲的就是人世间做事的手段与道理。而江湖术本身没有什么善恶好坏，就是各种手段，但是江湖中人良莠不齐。<br>而近代的江湖八大门讲的几乎都是江湖把戏了，归于“走江湖”的狭义之中。</p><p>古时江湖中人有两种讲究：“里”与“尖”，也称为“术”与“道”。里指的是手段，类似生意经，揣摩人的心理运用何种方法才能达到目的；尖指的是真本领、真正的功夫与追求的大道。<br>比如疲门讲行医，“里”指的就是怎么故弄玄虚能忽悠人，而“尖”指的是真正的医道修为。</p><p>在世间行事，这“里”与“尖”二字不可偏废，否则就算你有真本事也未必有人肯买帐，古往今来天底下怀才不遇人多的是。俗话说“尖中里，了不起，里中尖，赛神仙”，讲的就是这个道理。<br>但是近代以来走江湖的术士艺人，更多的是研究坑蒙拐骗的手段，大多沦为下九流了。其实江湖术本身是一门大学问，如果善用此中之道，足以行走天下。</p>]]></content>
     
