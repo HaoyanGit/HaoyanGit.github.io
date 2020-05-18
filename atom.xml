@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dmsky.top/"/>
-  <updated>2020-05-18T01:29:36.178Z</updated>
+  <updated>2020-05-18T01:46:44.177Z</updated>
   <id>http://dmsky.top/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Video</title>
+    <title>2019感恩有你</title>
     <link href="http://dmsky.top/2020/05/18/Video/"/>
     <id>http://dmsky.top/2020/05/18/Video/</id>
     <published>2020-05-18T01:11:28.000Z</published>
-    <updated>2020-05-18T01:29:36.178Z</updated>
+    <updated>2020-05-18T01:46:44.177Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="2019感恩有你"><a href="#2019感恩有你" class="headerlink" title="2019感恩有你"></a><strong>2019感恩有你</strong></h1><iframe height=498 width=510 src="http://mpvideo.qpic.cn/0bf2zqaaaaaalyafr3n6bfpfbtgdadgaaaaa.f10002.mp4?dis_k=133aec782577b2d6e028094e8e4fcadf&dis_t=1589764640" frameborder=0 allowfullscreen></iframe>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="2019感恩有你"><a href="#2019感恩有你" class="headerlink" title="2019感恩有你"></a><strong>2019感恩有你</strong></h1><video width="480" height="320" controls><source src="http://mpvideo.qpic.cn/0bf2zqaaaaaalyafr3n6bfpfbtgdadgaaaaa.f10002.mp4?dis_k=133aec782577b2d6e028094e8e4fcadf&dis_t=1589764640"></video>]]></content>
     
     <summary type="html">
     
