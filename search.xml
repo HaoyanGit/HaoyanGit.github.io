@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2020/05/09/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>分类名</category>
+      </categories>
+      <tags>
+        <tag>标签1</tag>
+        <tag>标签2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Video</title>
+    <url>/2020/05/18/Video/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="2019感恩有你"><a href="#2019感恩有你" class="headerlink" title="2019感恩有你"></a><strong>2019感恩有你</strong></h1><iframe height=498 width=510 src="http://mpvideo.qpic.cn/0bf2zqaaaaaalyafr3n6bfpfbtgdadgaaaaa.f10002.mp4?dis_k=133aec782577b2d6e028094e8e4fcadf&dis_t=1589764640" frameborder=0 allowfullscreen></iframe>
+]]></content>
+      <categories>
+        <category>视频</category>
+      </categories>
+      <tags>
+        <tag>中农</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>产权交易系统</title>
     <url>/2020/05/13/%E4%BA%A7%E6%9D%83%E4%BA%A4%E6%98%93/</url>
-    <content><![CDATA[<h2 id="一、环境变量，jdk安装"><a href="#一、环境变量，jdk安装" class="headerlink" title="*一、环境变量，jdk安装 *"></a>*<em>一、环境变量，jdk安装 *</em></h2><p>1、添加系统环境变量3 个</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一、环境变量，jdk安装"><a href="#一、环境变量，jdk安装" class="headerlink" title="*一、环境变量，jdk安装 *"></a>*<em>一、环境变量，jdk安装 *</em></h2><p>1、添加系统环境变量3 个</p>
 <pre><code>JAVA_HOME C:\Program Files\Java\jdk1.8.0_31
 JRE_HOME C:\Program Files\Java\jre1.8.0_31
 classpath  .;%JAVA_HOME%\lib\dat.jar;%JAVA_HOME%\lib\tools.jar</code></pre><a id="more"></a>
@@ -56,47 +94,9 @@ C:\Program Files\Java\jre1.8.0_31</code></pre><p>3、验证配置</p>
       </tags>
   </entry>
   <entry>
-    <title>Video</title>
-    <url>/2020/05/18/Video/</url>
-    <content><![CDATA[<h1 id="2019感恩有你"><a href="#2019感恩有你" class="headerlink" title="2019感恩有你"></a><strong>2019感恩有你</strong></h1><iframe height=498 width=510 src="http://mpvideo.qpic.cn/0bf2zqaaaaaalyafr3n6bfpfbtgdadgaaaaa.f10002.mp4?dis_k=133aec782577b2d6e028094e8e4fcadf&dis_t=1589764640" frameborder=0 allowfullscreen></iframe>
-]]></content>
-      <categories>
-        <category>视频</category>
-      </categories>
-      <tags>
-        <tag>中农</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/05/09/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>分类名</category>
-      </categories>
-      <tags>
-        <tag>标签1</tag>
-        <tag>标签2</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>江湖八大门</title>
     <url>/2020/05/12/%E6%B1%9F%E6%B9%96%E5%85%AB%E5%A4%A7%E9%97%A8/</url>
-    <content><![CDATA[<blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
 <p><em>过去的江湖术，分为惊、疲、飘、册、风、火、爵、要八门，包括走江湖混饭吃的种种手段。但是真正的江湖八大门可不止这些，而是这人世间一切所为之道――</em></p>
 </blockquote>
 <p>三山五岳、五湖四海，上至庙堂之上，下至市井之间，皆称江湖。俗话说有人的地方就有江湖，人世间一切行事之术，皆可称江湖术，古有八大门之说。然而自清末民国以来，所谓江湖术已经沦为流浪艺人骗口饭吃的小手段，这是狭义的江湖，至今世人所谈的江湖八大门已经完全是狭义了。</p>
