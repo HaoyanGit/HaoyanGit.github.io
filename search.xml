@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/05/09/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+    <title>2019感恩有你</title>
+    <url>/2020/05/18/Video/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="2019感恩有你"><a href="#2019感恩有你" class="headerlink" title="2019感恩有你"></a><strong>2019感恩有你</strong></h1><iframe height=498 width=510 frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=x0969cruk2a" allowFullScreen="true"></iframe>
+
+
 <a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
+<hr>
+<p><strong>Markdown 通用音乐/视频插入方法</strong></p>
+<p>Markdown 作为轻量级的标记语言，兼容 html 语法，所以可以直接在 Markdown 文档中使用 html 语法</p>
+<p><code>&lt;vedio&gt;</code>标签举例：</p>
+<pre><code>1. &lt;video width=&quot;480&quot; height=&quot;320&quot; controls&gt;
+2. &lt;source src=&quot;movie.mp4&quot;&gt;
+3. &lt;/video&gt;</code></pre><p><code>&lt;embed&gt;</code>标签举例：</p>
+<pre><code>&lt;embed src=&quot;http://player.youku.com/player.php/Type/Folder/Fid/27690810/Ob/1/sid/XMTY1MTI3NjMyNA==/v.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; allowFullScreen=&quot;true&quot; mode=&quot;transparent&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;</code></pre><p><code>&lt;iframe&gt;</code>标签举例：</p>
+<pre><code>&lt;iframe height=498 width=510 src=&quot;http://player.youku.com/embed/XMTY1MTI3NjMyNA==&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</code></pre><p><code>javascript</code>标签举例:</p>
+<pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?uid=32329501&amp;sid=1776238762&amp;mode=js&quot;&gt;&lt;/script&gt;</code></pre><p>除<code>&lt;vedio&gt;</code>标签外，大部分音乐/视频网站都可以直接生成播放器代码，直接粘贴到 Markdown 文档中即可使用。</p>
+<p>不过在 https 下，上述的有些标签可能无法正常使用。</p>
+<p><strong>通过 Hexo 插件插入音乐/视频</strong></p>
+<pre><code>1.hexo-tag-aplayer:https://github.com/grzhan/hexo-tag-aplayer#upstream-issue
+2.hexo-tag-dplayer:https://github.com/NextMoe/hexo-tag-dplayer</code></pre><p>安装命令</p>
+<pre><code>1.npm install hexo-tag-dplayer --save
+2.npm install hexo-tag-aplayer --save</code></pre>]]></content>
       <categories>
-        <category>分类名</category>
+        <category>视频</category>
       </categories>
       <tags>
-        <tag>标签1</tag>
-        <tag>标签2</tag>
+        <tag>中农</tag>
       </tags>
   </entry>
   <entry>
@@ -82,41 +90,29 @@ C:\Program Files\Java\jre1.8.0_31</code></pre><p>3、验证配置</p>
       </tags>
   </entry>
   <entry>
-    <title>2019感恩有你</title>
-    <url>/2020/05/18/Video/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="2019感恩有你"><a href="#2019感恩有你" class="headerlink" title="2019感恩有你"></a><strong>2019感恩有你</strong></h1><video width="480" height="320" controls>
-<source src="http://mpvideo.qpic.cn/0bf2zqaaaaaalyafr3n6bfpfbtgdadgaaaaa.f10002.mp4?dis_k=b745d7d9a09dc04c99bf132c8eaa44f3&dis_t=1589863846">
-</video>
-
-
-
-
+    <title>Hello World</title>
+    <url>/2020/05/09/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<hr>
-<p><strong>Markdown 通用音乐/视频插入方法</strong></p>
-<p>Markdown 作为轻量级的标记语言，兼容 html 语法，所以可以直接在 Markdown 文档中使用 html 语法</p>
-<p><code>&lt;vedio&gt;</code>标签举例：</p>
-<pre><code>1. &lt;video width=&quot;480&quot; height=&quot;320&quot; controls&gt;
-2. &lt;source src=&quot;movie.mp4&quot;&gt;
-3. &lt;/video&gt;</code></pre><p><code>&lt;embed&gt;</code>标签举例：</p>
-<pre><code>&lt;embed src=&quot;http://player.youku.com/player.php/Type/Folder/Fid/27690810/Ob/1/sid/XMTY1MTI3NjMyNA==/v.swf&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; allowFullScreen=&quot;true&quot; mode=&quot;transparent&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;</code></pre><p><code>&lt;iframe&gt;</code>标签举例：</p>
-<pre><code>&lt;iframe height=498 width=510 src=&quot;http://player.youku.com/embed/XMTY1MTI3NjMyNA==&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;</code></pre><p><code>javascript</code>标签举例:</p>
-<pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?uid=32329501&amp;sid=1776238762&amp;mode=js&quot;&gt;&lt;/script&gt;</code></pre><p>除<code>&lt;vedio&gt;</code>标签外，大部分音乐/视频网站都可以直接生成播放器代码，直接粘贴到 Markdown 文档中即可使用。</p>
-<p>不过在 https 下，上述的有些标签可能无法正常使用。</p>
-<p><strong>通过 Hexo 插件插入音乐/视频</strong></p>
-<pre><code>1.hexo-tag-aplayer:https://github.com/grzhan/hexo-tag-aplayer#upstream-issue
-2.hexo-tag-dplayer:https://github.com/NextMoe/hexo-tag-dplayer</code></pre><p>安装命令</p>
-<pre><code>1.npm install hexo-tag-dplayer --save
-2.npm install hexo-tag-aplayer --save</code></pre>]]></content>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
       <categories>
-        <category>视频</category>
+        <category>分类名</category>
       </categories>
       <tags>
-        <tag>中农</tag>
+        <tag>标签1</tag>
+        <tag>标签2</tag>
       </tags>
   </entry>
   <entry>
