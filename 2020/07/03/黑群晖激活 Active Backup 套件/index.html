@@ -103,14 +103,14 @@
 
 
 
-<meta name="description" content="登录群晖 WebAPI 确保可以通过 Web 访问你的 DSM 将以下网址中的 URL、PORT 替换为 DSM 的登录地址，USER、PASS 替换为一个 administrators 组里的用户的用户名和密码https:&#x2F;&#x2F;URL:PORT&#x2F;webapi&#x2F;auth.cgi?api&#x3D;SYNO.API.Auth&amp;method&#x3D;Login&amp;version&#x3D;1&amp;account&#x3D;">
+<meta name="description" content="搭建好黑群晖系统后， 客户端需要使用 Active Backup for Business 套件，第一次使用需要激活，在这里记录一下激活过程，环境 DSM 6.2.1，当然有钱还是要支持正版 登录群晖 WebAPI 确保可以通过 Web 访问你的 DSM 将以下网址中的 URL、PORT 替换为 DSM 的登录地址，USER、PASS 替换为一个 administrators 组里的用户的用户名">
 <meta property="og:type" content="article">
 <meta property="og:title" content="黑群晖激活 Active Backup 套件">
 <meta property="og:url" content="http://dmsky.top/2020/07/03/%E9%BB%91%E7%BE%A4%E6%99%96%E6%BF%80%E6%B4%BB%20Active%20Backup%20%E5%A5%97%E4%BB%B6/index.html">
 <meta property="og:site_name" content="昊 · sky">
-<meta property="og:description" content="登录群晖 WebAPI 确保可以通过 Web 访问你的 DSM 将以下网址中的 URL、PORT 替换为 DSM 的登录地址，USER、PASS 替换为一个 administrators 组里的用户的用户名和密码https:&#x2F;&#x2F;URL:PORT&#x2F;webapi&#x2F;auth.cgi?api&#x3D;SYNO.API.Auth&amp;method&#x3D;Login&amp;version&#x3D;1&amp;account&#x3D;">
+<meta property="og:description" content="搭建好黑群晖系统后， 客户端需要使用 Active Backup for Business 套件，第一次使用需要激活，在这里记录一下激活过程，环境 DSM 6.2.1，当然有钱还是要支持正版 登录群晖 WebAPI 确保可以通过 Web 访问你的 DSM 将以下网址中的 URL、PORT 替换为 DSM 的登录地址，USER、PASS 替换为一个 administrators 组里的用户的用户名">
 <meta property="article:published_time" content="2020-07-03T09:04:55.222Z">
-<meta property="article:modified_time" content="2020-07-03T09:13:29.981Z">
+<meta property="article:modified_time" content="2020-07-03T09:18:41.634Z">
 <meta property="article:author" content="D">
 <meta property="article:tag" content="技术">
 <meta property="article:tag" content="群晖">
@@ -423,7 +423,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  402 字
+                  461 字
                 </span>
               
 
@@ -439,7 +439,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1 分钟
+                  2 分钟
                 </span>
               
             </div>
@@ -460,14 +460,14 @@
       
 
       
-        <h2 id="登录群晖-WebAPI"><a href="#登录群晖-WebAPI" class="headerlink" title="登录群晖 WebAPI"></a>登录群晖 WebAPI</h2><ol>
+        <p>　搭建好黑群晖系统后， 客户端需要使用 <code>Active Backup for Business</code> 套件，第一次使用需要激活，在这里记录一下激活过程，环境 DSM 6.2.1，当然有钱还是要支持正版</p>
+<h2 id="登录群晖-WebAPI"><a href="#登录群晖-WebAPI" class="headerlink" title="登录群晖 WebAPI"></a>登录群晖 WebAPI</h2><ol>
 <li>确保可以通过 Web 访问你的 DSM</li>
 <li>将以下网址中的 <code>URL</code>、<code>PORT</code> 替换为 <code>DSM</code> 的登录地址，<code>USER</code>、<code>PASS</code> 替换为一个 <code>administrators</code> 组里的用户的用户名和密码<br><code>https://URL:PORT/webapi/auth.cgi?</code><br><code>api=SYNO.API.Auth&amp;method=Login&amp;version=1&amp;account=USER&amp;passwd=PASS</code></li>
 <li>如果你的密码里包括 <code>+?%</code> 等需要 URL 转码的字符串，先临时修改为一个简单的密码，或在这里进行 URL 转码</li>
 <li>打开浏览器访问替换后的网址</li>
-<li>如果显示 <code>{&quot;success&quot;:true}</code>，则说明登录成功</li>
-</ol>
-<h2 id="激活-Active-Backup-for-Business"><a href="#激活-Active-Backup-for-Business" class="headerlink" title="激活 Active Backup for Business"></a>激活 Active Backup for Business</h2><ol>
+<li>如果显示 <code>{&quot;success&quot;:true}</code>，则说明登录成功<a id="more"></a>
+<h2 id="激活-Active-Backup-for-Business"><a href="#激活-Active-Backup-for-Business" class="headerlink" title="激活 Active Backup for Business"></a>激活 Active Backup for Business</h2></li>
 <li>将以下网址中的 <code>URL</code>、<code>PORT</code> 替换为<code>DSM</code>的登录地址，<code>SERIALNUMBER</code> 替换为 <code>DSM</code> 的序列号<br><code>https://URL:PORT/webapi/entry.cgi</code><br><code>api=SYNO.ActiveBackup.Activation&amp;method=set&amp;version=1&amp;activated=true&amp;serial_number=&quot;SERIALNUMBER&quot;</code></li>
 <li>打开浏览器访问替换后的网址</li>
 <li>如果显示<code>{&quot;data&quot;:{&quot;activated&quot;:true},&quot;success&quot;:true}</code>，则说明激活成功</li>
@@ -807,7 +807,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共2.8k字</span>
+  <span class="post-count">博客全站共2.9k字</span>
 </div>
         
 <div class="busuanzi-count">
