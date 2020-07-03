@@ -321,6 +321,219 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://dmsky.top/2020/07/03/%E9%BB%91%E7%BE%A4%E6%99%96%E6%BF%80%E6%B4%BB%20Active%20Backup%20%E5%A5%97%E4%BB%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="D">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/touxiang.JPG">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="昊 · sky">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/07/03/%E9%BB%91%E7%BE%A4%E6%99%96%E6%BF%80%E6%B4%BB%20Active%20Backup%20%E5%A5%97%E4%BB%B6/" itemprop="url">黑群晖激活 Active Backup 套件</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-07-03T17:04:55+08:00">
+                2020-07-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%BE%A4%E6%99%96/" itemprop="url" rel="index">
+                    <span itemprop="name">群晖</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2020/07/03/%E9%BB%91%E7%BE%A4%E6%99%96%E6%BF%80%E6%B4%BB%20Active%20Backup%20%E5%A5%97%E4%BB%B6/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2020/07/03/黑群晖激活 Active Backup 套件/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  402 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="登录群晖-WebAPI"><a href="#登录群晖-WebAPI" class="headerlink" title="登录群晖 WebAPI"></a>登录群晖 WebAPI</h2><ol>
+<li>确保可以通过 Web 访问你的 DSM</li>
+<li>将以下网址中的 <code>URL</code>、<code>PORT</code> 替换为 <code>DSM</code> 的登录地址，<code>USER</code>、<code>PASS</code> 替换为一个 <code>administrators</code> 组里的用户的用户名和密码<br><code>https://URL:PORT/webapi/auth.cgi?</code><br><code>api=SYNO.API.Auth&amp;method=Login&amp;version=1&amp;account=USER&amp;passwd=PASS</code></li>
+<li>如果你的密码里包括 <code>+?%</code> 等需要 URL 转码的字符串，先临时修改为一个简单的密码，或在这里进行 URL 转码</li>
+<li>打开浏览器访问替换后的网址</li>
+<li>如果显示 <code>{&quot;success&quot;:true}</code>，则说明登录成功</li>
+</ol>
+<h2 id="激活-Active-Backup-for-Business"><a href="#激活-Active-Backup-for-Business" class="headerlink" title="激活 Active Backup for Business"></a>激活 Active Backup for Business</h2><ol>
+<li>将以下网址中的 <code>URL</code>、<code>PORT</code> 替换为<code>DSM</code>的登录地址，<code>SERIALNUMBER</code> 替换为 <code>DSM</code> 的序列号<br><code>https://URL:PORT/webapi/entry.cgi</code><br><code>api=SYNO.ActiveBackup.Activation&amp;method=set&amp;version=1&amp;activated=true&amp;serial_number=&quot;SERIALNUMBER&quot;</code></li>
+<li>打开浏览器访问替换后的网址</li>
+<li>如果显示<code>{&quot;data&quot;:{&quot;activated&quot;:true},&quot;success&quot;:true}</code>，则说明激活成功</li>
+<li>验证网址，同样替换 URL、PORT 后，打开浏览器访问：<br><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackup.Activation&amp;method=get&amp;version=1</code></li>
+</ol>
+<h2 id="激活-Active-Backup-for-G-Suite"><a href="#激活-Active-Backup-for-G-Suite" class="headerlink" title="激活 Active Backup for G Suite"></a>激活 Active Backup for G Suite</h2><ul>
+<li>激活网址：<br><code>https://URL:PORT/webapi/entry.cgi?``api=SYNO.ActiveBackupGSuite&amp;method=set_activation&amp;version=1&amp;serial_number=&quot;SERIALNUMBER&quot;</code></li>
+<li>验证网址：<br><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackupGSuite&amp;method=get_activation&amp;version=1</code></li>
+</ul>
+<h2 id="激活-Active-Backup-for-Office-365"><a href="#激活-Active-Backup-for-Office-365" class="headerlink" title="激活 Active Backup for Office 365"></a>激活 Active Backup for Office 365</h2><ul>
+<li>激活网址：</li>
+</ul>
+<p><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackupOffice365&amp;method=set_activation&amp;version=1&amp;serial_number=&quot;SERIALNUMBER&quot;</code></p>
+<ul>
+<li>验证网址：<br><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackupOffice365&amp;method=get_activation&amp;version=1</code></li>
+</ul>
+<h2 id="附注"><a href="#附注" class="headerlink" title="附注"></a>附注</h2><p>激活某个套件前必须先安装该套件</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a href="https://xpenology.com/forum/topic/13289-the-new-active-backup/" target="_blank" rel="noopener">https://xpenology.com/forum/topic/13289-the-new-active-backup/</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+     
+		 <div>
+       
+     </div>
+		 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://dmsky.top/2020/05/18/Video/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1132,7 +1345,7 @@ classpath  .;%JAVA_HOME%\lib\dat.jar;%JAVA_HOME%\lib\tools.jar</code></pre>
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1143,7 +1356,7 @@ classpath  .;%JAVA_HOME%\lib\dat.jar;%JAVA_HOME%\lib\tools.jar</code></pre>
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -1154,7 +1367,7 @@ classpath  .;%JAVA_HOME%\lib\dat.jar;%JAVA_HOME%\lib\tools.jar</code></pre>
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -1249,7 +1462,7 @@ classpath  .;%JAVA_HOME%\lib\dat.jar;%JAVA_HOME%\lib\tools.jar</code></pre>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共2.4k字</span>
+  <span class="post-count">博客全站共2.8k字</span>
 </div>
         
 <div class="busuanzi-count">
