@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/05/09/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>分类名</category>
-      </categories>
-      <tags>
-        <tag>标签1</tag>
-        <tag>标签2</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2019感恩有你</title>
     <url>/2020/05/18/Video/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="2019感恩有你"><a href="#2019感恩有你" class="headerlink" title="2019感恩有你"></a><strong>2019感恩有你</strong></h1><iframe height=498 width=510 frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=x0969cruk2a" allowFullScreen="true"></iframe>
@@ -58,6 +32,32 @@
       </categories>
       <tags>
         <tag>中农</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/05/09/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>分类名</category>
+      </categories>
+      <tags>
+        <tag>标签1</tag>
+        <tag>标签2</tag>
       </tags>
   </entry>
   <entry>
@@ -116,12 +116,101 @@ C:\Program Files\Java\jre1.8.0_31</code></pre><p>3、验证配置</p>
       </tags>
   </entry>
   <entry>
+    <title>江湖八大门</title>
+    <url>/2020/05/12/%E6%B1%9F%E6%B9%96%E5%85%AB%E5%A4%A7%E9%97%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p><em>过去的江湖术，分为惊、疲、飘、册、风、火、爵、要八门，包括走江湖混饭吃的种种手段。但是真正的江湖八大门可不止这些，而是这人世间一切所为之道――</em></p>
+</blockquote>
+<p>三山五岳、五湖四海，上至庙堂之上，下至市井之间，皆称江湖。俗话说有人的地方就有江湖，人世间一切行事之术，皆可称江湖术，古有八大门之说。然而自清末民国以来，所谓江湖术已经沦为流浪艺人骗口饭吃的小手段，这是狭义的江湖，至今世人所谈的江湖八大门已经完全是狭义了。</p>
+<a id="more"></a>
+
+
+
+<ul>
+<li><p><strong># 惊门 #</strong><br>是江湖八大门之首，主要是研究吉凶祸福，为人指点迷津。那么如今看相算命的都算惊门中的江湖人。惊门始祖是伏羲与周文王，传说伏羲画八卦而文王演周易，而江湖术士们常拜的还有另外一位祖师爷就是汉代的东方朔，据说东方朔曾经就在长安城中摆摊占卜。如果说惊门也有经典的话，那就是《易经》。江湖八大门以惊门为首不是没有道理，因为它研究的是天道变化。惊门一旦精通，则其余七门江湖术都可触类旁通，推演吉凶祸福世事变化本就是世间道的核心。现代的算命先生恐怕没这个本领，但是看人的眼力活还是基本功，而世间江湖术总而言之就是看人下菜碟。</p>
+</li>
+<li><p><strong># 疲门 #</strong><br>讲究的是行医济世之道。这里的行医不仅包括江湖游医，也包括坐堂医生，甚至包括古代的巫祝等等，只要是用各种办法给人看病，皆归疲门。疲门中人拜的祖师爷有两位，医圣张仲景与药王孙思邈。但是如今说江湖疲门，大家指的大多都是游方郎中。<br>疲门仅次于惊门位于江湖八大门之二，地位也很重要，因为它研究的是人自身的学问。严格说起来疲门的始祖是黄帝轩辕与炎帝神农，他们也是传说中中华民族的始祖，疲门的经典当然是《黄帝内经》与《神农本草经》。</p>
+</li>
+<li><p><strong># 飘门 #</strong><br>讲究的是云游求学之道。飘门的祖师爷是孔子孔圣人，这恐怕是很多人想不到的。而时至今日，江湖杂耍卖艺、登台现演的，甚至烟花妓女，都自称飘门中人。</p>
+</li>
+<li><p><strong># 册门 #</strong><br>讲究的是考证今古之学。册门的祖师爷是司马迁。时至今日江湖术，捣腾真假古董的，卖春宫的，经营字画的，都自称册门中人，甚至还包括盗墓的。</p>
+</li>
+<li><p><strong># 风门 #</strong><br>研究的是天下地理山川。风门的祖师爷据说是郭璞，那么如今的风水先生、阴阳宅地师都是风门中人了。</p>
+</li>
+<li><p><strong># 火门 #</strong><br>讲究的是各种养生之术。火门的祖师爷是葛洪葛天师，经典包括《抱朴子》、《参同契》等。那么炼丹术、炼金术、房中术都是火门江湖人的把戏了。</p>
+</li>
+<li><p><strong># 爵门 #</strong><br>讲究的是为官之道。传说爵门的祖师爷是鬼谷先生，经典是《鬼谷子》与《战国策》，鬼谷先生有两个很有名的弟子苏秦和张仪，传统爵门讲的其实是纵横术。自近代以来，买官卖官的把戏，包括以官方机构的名义诈骗等等，也算是爵门的江湖术。</p>
+</li>
+<li><p><strong># 要门 #</strong><br>讲究的是落魄之道。这一门的学问深奥，时运不济时该当如何自处又如何渡厄？要门的祖师爷据说是朱元璋，还有一说是柳下拓，其究竟已不可考。近代以来，打莲花落要饭的，吃大户打秋风的，装作僧尼化缘骗人的，甚至下蒙汗药的，都可算要门中人。</p>
+</li>
+</ul>
+<hr>
+<p>由此看来，江湖八大门包罗万象，讲的就是人世间做事的手段与道理。而江湖术本身没有什么善恶好坏，就是各种手段，但是江湖中人良莠不齐。<br>而近代的江湖八大门讲的几乎都是江湖把戏了，归于“走江湖”的狭义之中。</p>
+<p>古时江湖中人有两种讲究：“里”与“尖”，也称为“术”与“道”。里指的是手段，类似生意经，揣摩人的心理运用何种方法才能达到目的；尖指的是真本领、真正的功夫与追求的大道。<br>比如疲门讲行医，“里”指的就是怎么故弄玄虚能忽悠人，而“尖”指的是真正的医道修为。</p>
+<p>在世间行事，这“里”与“尖”二字不可偏废，否则就算你有真本事也未必有人肯买帐，古往今来天底下怀才不遇人多的是。俗话说“尖中里，了不起，里中尖，赛神仙”，讲的就是这个道理。<br>但是近代以来走江湖的术士艺人，更多的是研究坑蒙拐骗的手段，大多沦为下九流了。其实江湖术本身是一门大学问，如果善用此中之道，足以行走天下。</p>
+]]></content>
+      <categories>
+        <category>江湖</category>
+      </categories>
+      <tags>
+        <tag>江湖术</tag>
+        <tag>文学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>黑群晖激活 Active Backup 套件</title>
+    <url>/2020/07/03/%E9%BB%91%E7%BE%A4%E6%99%96%E6%BF%80%E6%B4%BB%20Active%20Backup%20%E5%A5%97%E4%BB%B6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>　搭建好黑群晖系统后， 客户端需要使用 <code>Active Backup for Business</code> 套件，第一次使用需要激活，在这里记录一下激活过程，环境 DSM 6.2.1，当然有钱还是要支持正版</p>
+<h2 id="登录群晖-WebAPI"><a href="#登录群晖-WebAPI" class="headerlink" title="登录群晖 WebAPI"></a>登录群晖 WebAPI</h2><ol>
+<li>确保可以通过 Web 访问你的 DSM</li>
+<li>将以下网址中的 <code>URL</code>、<code>PORT</code> 替换为 <code>DSM</code> 的登录地址，<code>USER</code>、<code>PASS</code> 替换为一个 <code>administrators</code> 组里的用户的用户名和密码<br><code>https://URL:PORT/webapi/auth.cgi?</code><br><code>api=SYNO.API.Auth&amp;method=Login&amp;version=1&amp;account=USER&amp;passwd=PASS</code></li>
+<li>如果你的密码里包括 <code>+?%</code> 等需要 URL 转码的字符串，先临时修改为一个简单的密码，或在这里进行 URL 转码</li>
+<li>打开浏览器访问替换后的网址</li>
+<li>如果显示 <code>{&quot;success&quot;:true}</code>，则说明登录成功<a id="more"></a>
+<h2 id="激活-Active-Backup-for-Business"><a href="#激活-Active-Backup-for-Business" class="headerlink" title="激活 Active Backup for Business"></a>激活 Active Backup for Business</h2></li>
+<li>将以下网址中的 <code>URL</code>、<code>PORT</code> 替换为<code>DSM</code>的登录地址，<code>SERIALNUMBER</code> 替换为 <code>DSM</code> 的序列号<br><code>https://URL:PORT/webapi/entry.cgi</code><br><code>api=SYNO.ActiveBackup.Activation&amp;method=set&amp;version=1&amp;activated=true&amp;serial_number=&quot;SERIALNUMBER&quot;</code></li>
+<li>打开浏览器访问替换后的网址</li>
+<li>如果显示<code>{&quot;data&quot;:{&quot;activated&quot;:true},&quot;success&quot;:true}</code>，则说明激活成功</li>
+<li>验证网址，同样替换 URL、PORT 后，打开浏览器访问：<br><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackup.Activation&amp;method=get&amp;version=1</code></li>
+</ol>
+<h2 id="激活-Active-Backup-for-G-Suite"><a href="#激活-Active-Backup-for-G-Suite" class="headerlink" title="激活 Active Backup for G Suite"></a>激活 Active Backup for G Suite</h2><ul>
+<li>激活网址：<br><code>https://URL:PORT/webapi/entry.cgi?``api=SYNO.ActiveBackupGSuite&amp;method=set_activation&amp;version=1&amp;serial_number=&quot;SERIALNUMBER&quot;</code></li>
+<li>验证网址：<br><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackupGSuite&amp;method=get_activation&amp;version=1</code></li>
+</ul>
+<h2 id="激活-Active-Backup-for-Office-365"><a href="#激活-Active-Backup-for-Office-365" class="headerlink" title="激活 Active Backup for Office 365"></a>激活 Active Backup for Office 365</h2><ul>
+<li>激活网址：</li>
+</ul>
+<p><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackupOffice365&amp;method=set_activation&amp;version=1&amp;serial_number=&quot;SERIALNUMBER&quot;</code></p>
+<ul>
+<li>验证网址：<br><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackupOffice365&amp;method=get_activation&amp;version=1</code></li>
+</ul>
+<h2 id="附注"><a href="#附注" class="headerlink" title="附注"></a>附注</h2><p>激活某个套件前必须先安装该套件</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a href="https://xpenology.com/forum/topic/13289-the-new-active-backup/" target="_blank" rel="noopener">https://xpenology.com/forum/topic/13289-the-new-active-backup/</a></p>
+]]></content>
+      <categories>
+        <category>群晖</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>群晖</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>kali菜单中各工具功能</title>
     <url>/2020/08/05/kali%E8%8F%9C%E5%8D%95%E4%B8%AD%E5%90%84%E5%B7%A5%E5%85%B7%E5%8A%9F%E8%83%BD/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a><strong>一、说明</strong></h2><p>各工具kali官方简介（竖排）：<a href="https://tools.kali.org/tools-listing" target="_blank" rel="noopener">https://tools.kali.org/tools-listing</a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
+<p>title: kali菜单中各工具功能<br>categories: kali<br>archives: linux<br>tags: </p>
+<ul>
+<li>linux</li>
+<li>kali</li>
+</ul>
+<hr>
+<h2 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a><strong>一、说明</strong></h2><p>各工具kali官方简介（竖排）：<a href="https://tools.kali.org/tools-listing" target="_blank" rel="noopener">https://tools.kali.org/tools-listing</a></p>
 <p>安装kali虚拟机可参考：<a href="https://www.cnblogs.com/lsdb/p/6500757.html" target="_blank" rel="noopener">https://www.cnblogs.com/lsdb/p/6500757.html</a></p>
-<p>pentestbox：虚拟机还是比较耗内存的，内存不够可以试试pentestbox，从功能上可以理解为运行在windows上的kali发行版，kali主流工具它都具备。官方下载页面似乎有点问题，可直接到其sourceforge主页下载。另外注意可能是因为metasploit太大默认版本没有mtetasploit，with-metasploit版本才有metasploit。</p>
+<p><code>pentestbox：</code>虚拟机还是比较耗内存的，内存不够可以试试<a href="https://pentestbox.org/zh" target="_blank" rel="noopener"><code>pentestbox</code></a>，从功能上可以理解为运行在<code>windows</code>上的<code>kali</code>发行版，<code>kali</code><a href="https://tools.pentestbox.org/" target="_blank" rel="noopener">主流工具它都具备</a>。官方下载页面似乎有点问题，可直接到其<a href="https://sourceforge.net/projects/pentestbox/files/" target="_blank" rel="noopener"><code>sourceforge</code>主页</a>下载。另外注意可能是因为<code>metasploit</code>太大默认版本没有<code>mtetasploit</code>，<code>with-metasploit</code>版本才有<code>metasploit</code>。</p>
 <p>更多渗透测试资源可参考：<a href="https://github.com/enaqx/awesome-pentest" target="_blank" rel="noopener">https://github.com/enaqx/awesome-pentest</a></p>
+<a id="more"></a>
+
 <h2 id="二、kali工具列表"><a href="#二、kali工具列表" class="headerlink" title="二、kali工具列表"></a><strong>二、kali工具列表</strong></h2><p>使用模式中，cmd-line表示单条命令形式，shell表示交互shell形式，gui表示是图形界面形式。</p>
 <table>
 <thead>
@@ -512,7 +601,7 @@ C:\Program Files\Java\jre1.8.0_31</code></pre><p>3、验证配置</p>
 <td></td>
 </tr>
 <tr>
-<td>MDK3</td>
+<td><a href="http://www.360doc.com/content/15/1229/16/29791812_523958566.shtml" target="_blank" rel="noopener">MDK3</a></td>
 <td>AP扰乱</td>
 <td>cmd-line</td>
 <td>可向AP发送大量连接、断开请求，可向周围设备告知存在根本不存在的大量AP</td>
@@ -907,7 +996,7 @@ C:\Program Files\Java\jre1.8.0_31</code></pre><p>3、验证配置</p>
 <td>pipal</td>
 <td>词频统计</td>
 <td>cmd-line</td>
-<td>说词频统计并不是很准确，文命令可分析统计给定文件中的词语的“各种最”</td>
+<td>说词频统计并不是很准确，文命令可分析统计给定文件中的词语的“<a href="https://www.freebuf.com/sectool/49592.html" target="_blank" rel="noopener">各种最</a>”</td>
 <td></td>
 </tr>
 <tr>
@@ -926,85 +1015,5 @@ C:\Program Files\Java\jre1.8.0_31</code></pre><p>3、验证配置</p>
 </tr>
 </tbody></table>
 ]]></content>
-  </entry>
-  <entry>
-    <title>黑群晖激活 Active Backup 套件</title>
-    <url>/2020/07/03/%E9%BB%91%E7%BE%A4%E6%99%96%E6%BF%80%E6%B4%BB%20Active%20Backup%20%E5%A5%97%E4%BB%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>　搭建好黑群晖系统后， 客户端需要使用 <code>Active Backup for Business</code> 套件，第一次使用需要激活，在这里记录一下激活过程，环境 DSM 6.2.1，当然有钱还是要支持正版</p>
-<h2 id="登录群晖-WebAPI"><a href="#登录群晖-WebAPI" class="headerlink" title="登录群晖 WebAPI"></a>登录群晖 WebAPI</h2><ol>
-<li>确保可以通过 Web 访问你的 DSM</li>
-<li>将以下网址中的 <code>URL</code>、<code>PORT</code> 替换为 <code>DSM</code> 的登录地址，<code>USER</code>、<code>PASS</code> 替换为一个 <code>administrators</code> 组里的用户的用户名和密码<br><code>https://URL:PORT/webapi/auth.cgi?</code><br><code>api=SYNO.API.Auth&amp;method=Login&amp;version=1&amp;account=USER&amp;passwd=PASS</code></li>
-<li>如果你的密码里包括 <code>+?%</code> 等需要 URL 转码的字符串，先临时修改为一个简单的密码，或在这里进行 URL 转码</li>
-<li>打开浏览器访问替换后的网址</li>
-<li>如果显示 <code>{&quot;success&quot;:true}</code>，则说明登录成功<a id="more"></a>
-<h2 id="激活-Active-Backup-for-Business"><a href="#激活-Active-Backup-for-Business" class="headerlink" title="激活 Active Backup for Business"></a>激活 Active Backup for Business</h2></li>
-<li>将以下网址中的 <code>URL</code>、<code>PORT</code> 替换为<code>DSM</code>的登录地址，<code>SERIALNUMBER</code> 替换为 <code>DSM</code> 的序列号<br><code>https://URL:PORT/webapi/entry.cgi</code><br><code>api=SYNO.ActiveBackup.Activation&amp;method=set&amp;version=1&amp;activated=true&amp;serial_number=&quot;SERIALNUMBER&quot;</code></li>
-<li>打开浏览器访问替换后的网址</li>
-<li>如果显示<code>{&quot;data&quot;:{&quot;activated&quot;:true},&quot;success&quot;:true}</code>，则说明激活成功</li>
-<li>验证网址，同样替换 URL、PORT 后，打开浏览器访问：<br><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackup.Activation&amp;method=get&amp;version=1</code></li>
-</ol>
-<h2 id="激活-Active-Backup-for-G-Suite"><a href="#激活-Active-Backup-for-G-Suite" class="headerlink" title="激活 Active Backup for G Suite"></a>激活 Active Backup for G Suite</h2><ul>
-<li>激活网址：<br><code>https://URL:PORT/webapi/entry.cgi?``api=SYNO.ActiveBackupGSuite&amp;method=set_activation&amp;version=1&amp;serial_number=&quot;SERIALNUMBER&quot;</code></li>
-<li>验证网址：<br><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackupGSuite&amp;method=get_activation&amp;version=1</code></li>
-</ul>
-<h2 id="激活-Active-Backup-for-Office-365"><a href="#激活-Active-Backup-for-Office-365" class="headerlink" title="激活 Active Backup for Office 365"></a>激活 Active Backup for Office 365</h2><ul>
-<li>激活网址：</li>
-</ul>
-<p><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackupOffice365&amp;method=set_activation&amp;version=1&amp;serial_number=&quot;SERIALNUMBER&quot;</code></p>
-<ul>
-<li>验证网址：<br><code>https://URL:PORT/webapi/entry.cgi?api=SYNO.ActiveBackupOffice365&amp;method=get_activation&amp;version=1</code></li>
-</ul>
-<h2 id="附注"><a href="#附注" class="headerlink" title="附注"></a>附注</h2><p>激活某个套件前必须先安装该套件</p>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><a href="https://xpenology.com/forum/topic/13289-the-new-active-backup/" target="_blank" rel="noopener">https://xpenology.com/forum/topic/13289-the-new-active-backup/</a></p>
-]]></content>
-      <categories>
-        <category>群晖</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>群晖</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>江湖八大门</title>
-    <url>/2020/05/12/%E6%B1%9F%E6%B9%96%E5%85%AB%E5%A4%A7%E9%97%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p><em>过去的江湖术，分为惊、疲、飘、册、风、火、爵、要八门，包括走江湖混饭吃的种种手段。但是真正的江湖八大门可不止这些，而是这人世间一切所为之道――</em></p>
-</blockquote>
-<p>三山五岳、五湖四海，上至庙堂之上，下至市井之间，皆称江湖。俗话说有人的地方就有江湖，人世间一切行事之术，皆可称江湖术，古有八大门之说。然而自清末民国以来，所谓江湖术已经沦为流浪艺人骗口饭吃的小手段，这是狭义的江湖，至今世人所谈的江湖八大门已经完全是狭义了。</p>
-<a id="more"></a>
-
-
-
-<ul>
-<li><p><strong># 惊门 #</strong><br>是江湖八大门之首，主要是研究吉凶祸福，为人指点迷津。那么如今看相算命的都算惊门中的江湖人。惊门始祖是伏羲与周文王，传说伏羲画八卦而文王演周易，而江湖术士们常拜的还有另外一位祖师爷就是汉代的东方朔，据说东方朔曾经就在长安城中摆摊占卜。如果说惊门也有经典的话，那就是《易经》。江湖八大门以惊门为首不是没有道理，因为它研究的是天道变化。惊门一旦精通，则其余七门江湖术都可触类旁通，推演吉凶祸福世事变化本就是世间道的核心。现代的算命先生恐怕没这个本领，但是看人的眼力活还是基本功，而世间江湖术总而言之就是看人下菜碟。</p>
-</li>
-<li><p><strong># 疲门 #</strong><br>讲究的是行医济世之道。这里的行医不仅包括江湖游医，也包括坐堂医生，甚至包括古代的巫祝等等，只要是用各种办法给人看病，皆归疲门。疲门中人拜的祖师爷有两位，医圣张仲景与药王孙思邈。但是如今说江湖疲门，大家指的大多都是游方郎中。<br>疲门仅次于惊门位于江湖八大门之二，地位也很重要，因为它研究的是人自身的学问。严格说起来疲门的始祖是黄帝轩辕与炎帝神农，他们也是传说中中华民族的始祖，疲门的经典当然是《黄帝内经》与《神农本草经》。</p>
-</li>
-<li><p><strong># 飘门 #</strong><br>讲究的是云游求学之道。飘门的祖师爷是孔子孔圣人，这恐怕是很多人想不到的。而时至今日，江湖杂耍卖艺、登台现演的，甚至烟花妓女，都自称飘门中人。</p>
-</li>
-<li><p><strong># 册门 #</strong><br>讲究的是考证今古之学。册门的祖师爷是司马迁。时至今日江湖术，捣腾真假古董的，卖春宫的，经营字画的，都自称册门中人，甚至还包括盗墓的。</p>
-</li>
-<li><p><strong># 风门 #</strong><br>研究的是天下地理山川。风门的祖师爷据说是郭璞，那么如今的风水先生、阴阳宅地师都是风门中人了。</p>
-</li>
-<li><p><strong># 火门 #</strong><br>讲究的是各种养生之术。火门的祖师爷是葛洪葛天师，经典包括《抱朴子》、《参同契》等。那么炼丹术、炼金术、房中术都是火门江湖人的把戏了。</p>
-</li>
-<li><p><strong># 爵门 #</strong><br>讲究的是为官之道。传说爵门的祖师爷是鬼谷先生，经典是《鬼谷子》与《战国策》，鬼谷先生有两个很有名的弟子苏秦和张仪，传统爵门讲的其实是纵横术。自近代以来，买官卖官的把戏，包括以官方机构的名义诈骗等等，也算是爵门的江湖术。</p>
-</li>
-<li><p><strong># 要门 #</strong><br>讲究的是落魄之道。这一门的学问深奥，时运不济时该当如何自处又如何渡厄？要门的祖师爷据说是朱元璋，还有一说是柳下拓，其究竟已不可考。近代以来，打莲花落要饭的，吃大户打秋风的，装作僧尼化缘骗人的，甚至下蒙汗药的，都可算要门中人。</p>
-</li>
-</ul>
-<hr>
-<p>由此看来，江湖八大门包罗万象，讲的就是人世间做事的手段与道理。而江湖术本身没有什么善恶好坏，就是各种手段，但是江湖中人良莠不齐。<br>而近代的江湖八大门讲的几乎都是江湖把戏了，归于“走江湖”的狭义之中。</p>
-<p>古时江湖中人有两种讲究：“里”与“尖”，也称为“术”与“道”。里指的是手段，类似生意经，揣摩人的心理运用何种方法才能达到目的；尖指的是真本领、真正的功夫与追求的大道。<br>比如疲门讲行医，“里”指的就是怎么故弄玄虚能忽悠人，而“尖”指的是真正的医道修为。</p>
-<p>在世间行事，这“里”与“尖”二字不可偏废，否则就算你有真本事也未必有人肯买帐，古往今来天底下怀才不遇人多的是。俗话说“尖中里，了不起，里中尖，赛神仙”，讲的就是这个道理。<br>但是近代以来走江湖的术士艺人，更多的是研究坑蒙拐骗的手段，大多沦为下九流了。其实江湖术本身是一门大学问，如果善用此中之道，足以行走天下。</p>
-]]></content>
-      <categories>
-        <category>江湖</category>
-      </categories>
-      <tags>
-        <tag>江湖术</tag>
-        <tag>文学</tag>
-      </tags>
   </entry>
 </search>
